@@ -26,7 +26,7 @@ INDICES = {
     "FTSE 100": "^FTSE",
 }
 
-DEFAULT_INDICES = ["Sensex", "S&P 500", "NASDAQ"]
+# DEFAULT_INDICES = ["Sensex", "S&P 500", "NASDAQ"]
 
 # ---------------- SIDEBAR ----------------
 st.sidebar.header("⚙️ Controls")
@@ -393,3 +393,4 @@ with tab6:
         ax.set_title("QNN Based Stock Price Prediction (Quantum Data)")
 
         st.pyplot(fig)
+
