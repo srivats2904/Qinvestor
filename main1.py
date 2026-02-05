@@ -24,6 +24,18 @@ INDICES = {
     "NASDAQ": "^IXIC",
     "Dow Jones": "^DJI",
     "FTSE 100": "^FTSE",
+    "Switzerland 20": "^SSMI", 
+    "MDAX": "^MDAXI", 
+    "BEL 20": "^BFX", 
+    "DAX": "^GDAXI",
+    "CAC 40": "^FCHI", 
+    "AEX": "^AEX", 
+    "EURO STOXX 50": "^STOXX50E", 
+    "IBEX 35": "^IBEX", 
+    "TECDAX": "^TECDAX", 
+    "OMX Stockholm 30": "^OMX", 
+    "OMX Helsinki 25": "^OMXH25", 
+    "S&P 100": "^SP100"
 }
 
 DEFAULT_INDICES = []
@@ -393,5 +405,6 @@ with tab6:
         ax.set_title("QNN Based Stock Price Prediction (Quantum Data)")
 
         st.pyplot(fig)
+
 
 
